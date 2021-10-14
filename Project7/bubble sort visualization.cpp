@@ -7,7 +7,7 @@ void bubble_sort(std::vector<RectangleShape>& elements, RenderWindow& window, co
 int main()
 {
 	RenderWindow window(VideoMode(400, 300), "Bubble sort visualization!");
-	window.setFramerateLimit(20);
+	window.setFramerateLimit(60);
 	srand(time(0));
 	int size;
 	float x = 8;
